@@ -1,14 +1,14 @@
 import React from "react";
 import "./SplashPage.css";
 
-function SplashPage (props) {
+export default function SplashPage (props) {
       return (
         <div>
-          Hello World!
+          Hi there World!
         </div>
       )
     }
   
 
 
-  export default SplashPage;
+ 

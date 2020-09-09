@@ -2,16 +2,18 @@ import React from 'react';
 import LogOut from '../LogOut/LogOut';
 import './NavBar.css';
 
+
+
 export default function NavBar(props) {
     let navBarItems = [
         <li key={1}>
-            <a href="/about" class="navbar-item about" style={{}}>
-                About
+            <a href="/aboutus" class="navbar-item about" style={{}}>
+                About <br />Us
             </a>
         </li>,
         <li key={2}>
-            <a href="/contact" class="navbar-item contact">
-                Contact
+            <a href="/contactus" class="navbar-item contact">
+                Contact Us
             </a>
         </li>,
         <li key={3}>

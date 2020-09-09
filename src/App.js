@@ -10,6 +10,12 @@ import LogInForm from './components/LogInForm/LogInForm';
 import LogOut from './components/LogOut/LogOut';
 import Home from './components/Home/Home';
 
+import AboutUs from'./components/AboutUs/AboutUs.js';
+import ContactUs from './components/ContactUs/ContactUs.js';
+import ContactUsForm from './components/ContactUs/ContactUsForm';
+import SplashPage from './components/SplashPage/SplashPage.js';
+
+
 
 export default function App(props) {
 
@@ -71,8 +77,9 @@ export default function App(props) {
   };
 
   return (
-    <Layout isLoggedIn={isLoggedIn}>
+    
       <div className="body">
+        <Layout isLoggedIn={isLoggedIn}>
         <Switch>
           <Route
             path="/signup"
@@ -112,9 +119,34 @@ export default function App(props) {
               return <Home />;
             }}
           />
+          <Route
+            path="/aboutus"
+            render={(props) => {
+              return <AboutUs />;
+            }}
+          />
+          <Route
+            path="/contactus"
+            render={(props) => {
+              return <ContactUs />;
+            }}
+          />
+          <Route
+            path="/contactusform"
+            render={(props) => {
+              return <ContactUsForm />;
+            }}
+          />
+          <Route
+            path="/"
+            render={(props) => {
+              return <SplashPage />;
+            }}
+          />
         </Switch>
+        </Layout>
       </div>
-    </Layout>
+    
   );
 }
 
