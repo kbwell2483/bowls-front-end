@@ -8,29 +8,39 @@ export default function ContactUs(props) {
             
                   <div class="container is-fluid" style={{width: '50%'}}>
                   <div class="notification">
-                  <strong>Contact Us</strong> 
+                  <h1>It’s our pleasure to serve you.</h1>
+                  <br />
+                  <strong>Hours of Operation</strong>
                   </div>
-                    <h1>By Mail:</h1>
-                    <h1>123 Anywhere St.</h1>
-                    <h1>Anytown, USA 12345</h1>
+                    <h1><strong>M-F: </strong>9am-9pm EST</h1>
+                    <h1><strong>Sat: </strong>9am-12am EST</h1>
+                    <h1><strong>Sun: </strong>9am-9pm EST</h1>
                   </div>
                   <br />
-
                 <div>
-                <h1>By Phone:</h1>
+                <br />
+                <div class="container is-fluid" style={{width: '50%'}}>
+                  <div class="notification">
+                  <strong>Contact Us</strong>
+                  <br />
+                  </div>
+                    <h1><strong>By Mail</strong></h1>
+                    <h1>123 Anywhere St.</h1>
+                    <h1>Anytown, ST 12345</h1>
+                  </div>
+                <br />
+                <div>
+                <h1><strong>By Phone</strong></h1>
                 <h1>555-555-5555</h1>
                 </div>
                 <br />
-            
-                <div>
                 <h1>
-                  By Email:
-                  <a href="/contactusform" class="navbar-item about" style={{}}>
-                To email Better Bowl, CLICK HERE!</a></h1>
-                
+                  <strong>Email</strong>
+                  <br />
+                  To contact us via email, please fill out a <a href="/contactusform" style={{margin:'auto'}}>
+                contact form</a>.</h1>
+                <br />
                 </div>
-               
-             
             </div>
         </div>  
         );

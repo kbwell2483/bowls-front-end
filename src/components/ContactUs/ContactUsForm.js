@@ -5,7 +5,9 @@ export default function ContactUsForm(props) {
       return (
         <div>
           <br />
-        <h1>To contact us by email, please complete and submit the form below.</h1>
+          <h1><strong>Contact Form</strong></h1>
+          <br />
+        <h1>To contact us by email, please complete and submit the form below. We do our best to respond within 24 business hours, but it may take longer if our volume is unusually high. For urgent matters, please call 555-555-5555 during business hours for immediate assistance.</h1>
         <br />
         <form>
         <div>

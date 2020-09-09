@@ -14,6 +14,8 @@ import AboutUs from'./components/AboutUs/AboutUs.js';
 import ContactUs from './components/ContactUs/ContactUs.js';
 import ContactUsForm from './components/ContactUs/ContactUsForm';
 import SplashPage from './components/SplashPage/SplashPage.js';
+import SplashPageLayout from './components/Layout/SplashPageLayout.js';
+
 
 
 
@@ -146,7 +148,6 @@ export default function App(props) {
         </Switch>
         </Layout>
       </div>
-    
   );
 }
 
